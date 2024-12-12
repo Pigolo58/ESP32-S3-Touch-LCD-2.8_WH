@@ -1,5 +1,5 @@
 #include <Arduino.h>
-
+#include <ui.h>
 #include "Display_ST7789.h"
 #include "Audio_PCM5101.h"
 #include "RTC_PCF85063.h"
@@ -46,8 +46,9 @@ void setup()
   Audio_Init();
   LCD_Init();
   Lvgl_Init();
+  ui_init();
 
-  Lvgl_Example1();
+  // Lvgl_Example1();
   // lv_demo_widgets();               
   // lv_demo_benchmark();          
   // lv_demo_keypad_encoder();     

@@ -1,0 +1,16 @@
+{
+  "codename": "Font60b",
+  "ttf_path": "/assets/font/Itim-Regular.ttf",
+  "bin_path": "/assets/font/ui_font_Font60b.bin",
+  "c_path": "/assets/font/ui_font_Font60b.c",
+  "cfg_path": "/assets/font/ui_font_Font60b.fcfg",
+  "size": 60,
+  "bpp": 4,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}
