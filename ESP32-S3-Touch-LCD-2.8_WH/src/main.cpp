@@ -10,7 +10,8 @@
 #include "LVGL_Example.h"
 #include "BAT_Driver.h"
 #include "Wireless.h"
-
+lv_obj_t *Qrcode;
+String receivedMessage = "";
 void DriverTask(void *parameter) {
   Wireless_Test2();
   while(1){
@@ -34,6 +35,7 @@ void Driver_Loop() {
 }
 void setup()
 {
+  Serial.begin(115200);
   Flash_test();
   PWR_Init();
   BAT_Init();
@@ -55,11 +57,15 @@ void setup()
   // lv_demo_music();              
   // lv_demo_printer();
   // lv_demo_stress();   
-  Driver_Loop();
+  // Driver_Loop();
+  const char *text = "Myname is PAO";
+  create_qrcode(ui_Panel1,Qrcode,text);
 }
 
 void loop()
 {
   Lvgl_Loop();
   vTaskDelay(pdMS_TO_TICKS(5));
+
+   
 }

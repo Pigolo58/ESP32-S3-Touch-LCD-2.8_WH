@@ -1,0 +1,16 @@
+{
+  "codename": "Thaifont50",
+  "ttf_path": "/assets/font/Kart-Phuththkhun.ttf",
+  "bin_path": "/assets/font/ui_font_Thaifont50.bin",
+  "c_path": "/assets/font/ui_font_Thaifont50.c",
+  "cfg_path": "/assets/font/ui_font_Thaifont50.fcfg",
+  "size": 40,
+  "bpp": 8,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนนบปผฝพฟภมยรลวศษสหฬอฮะาอิอีอึอืออุอูเอแโไใ่้๊๋าวอัๆอ็อ่๋กำรื่",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

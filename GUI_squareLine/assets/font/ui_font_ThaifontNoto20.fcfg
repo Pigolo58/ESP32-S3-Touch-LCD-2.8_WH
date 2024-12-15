@@ -1,0 +1,16 @@
+{
+  "codename": "ThaifontNoto20",
+  "ttf_path": "/assets/font/NotoSansThai-ExtraBold.ttf",
+  "bin_path": "/assets/font/ui_font_ThaifontNoto20.bin",
+  "c_path": "/assets/font/ui_font_ThaifontNoto20.c",
+  "cfg_path": "/assets/font/ui_font_ThaifontNoto20.fcfg",
+  "size": 30,
+  "bpp": 2,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนนบปผฝพฟภมยรลวศษสหฬอฮะาอิอีอึอืออุอูเอแโไใ่้๊๋าวอัๆอ็อ่๋กำ",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}
